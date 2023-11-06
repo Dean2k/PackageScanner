@@ -5,6 +5,8 @@ This system is to scan unity packages for the malicious files that have been cro
 
 This system isn't bullet proof but is better than nothing, however if you want you can go full paranoid mode and remove every .CS & .DLL file which will remove any possibility of the file containing a logger.
 
+Make sure to move this out straight away or it will be deleted on the next scan
+
 
 ## Acknowledgements
 
