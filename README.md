@@ -14,6 +14,7 @@ This projects have either been used in this project or modified and used within 
 
  - [UnityPacker](https://github.com/FatihBAKIR/UnityPacker/)
  - [Unity Package Extractor](https://github.com/Avatarchik/UnityPackageExtractor)
+ - [Safe Importer](https://github.com/FACS01-01/Safe_Import)
 
 
 ## Screenshots
