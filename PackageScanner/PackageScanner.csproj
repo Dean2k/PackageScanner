@@ -7,6 +7,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>icons8-unity-solid-glyph-70.ico</ApplicationIcon>
+    <StartupObject>PackageScanner.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

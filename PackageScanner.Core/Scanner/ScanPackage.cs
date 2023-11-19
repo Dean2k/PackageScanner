@@ -73,7 +73,7 @@ namespace PackageScanner.Core.Scanner
                 string fileHash = Sha256CheckSum(file);
                 if (deleteUrl)
                 {
-                    foreach (var str in File.ReadLines(file).Where(s => s.Contains("/api/webhooks/") || s.Contains("base64")))
+                    foreach (var str in File.ReadLines(file).Where(s => s.Contains("/api/webhooks/") || s.Contains("Base64String")))
                     {
                         WriteLog($"Webhook / Base64 encoding found and should be removed) {file}:Hash={fileHash}\n");
                         urlDeletes.Add((file, fileHash));
